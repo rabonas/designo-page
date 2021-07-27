@@ -1,0 +1,58 @@
+@media (max-width: 991px){
+
+    .card {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .card__image, .card__content {
+        width: 50%;
+    }
+
+    .service {
+        height: 200px;
+        margin-bottom: 24px;
+    }
+
+    .service__info {
+        top: 60px;
+    }
+}
+
+
+@media (max-width: 565px){
+
+    .container {
+        padding: 0;
+    }
+
+    .page-title {
+        border-radius: 0;
+    }
+
+    .page-title__text {
+        width: 295px;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card__image, .card__content {
+        width: 100%;
+    }
+
+    .portfolio, .services {
+        margin: 96px 20px;
+    }
+
+    .service__title {
+        font-size: 28px;
+    }
+
+}
+
+
+@media (max-width: 480px){
+
+}

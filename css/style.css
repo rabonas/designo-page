@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.page-title {
+    padding: 60px 0;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.web {
+    background: #E7816B;
+    background-image: url(../img/bg-header.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.app {
+    background: #E7816B;
+    background-image: url(../img/bg-app.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.graphic {
+    background: #E7816B;
+    background-image: url(../img/bg-graphic.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.page-title__heading {
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.page-title__text {
+    width: 400px;
+    line-height: 26px;
+    margin: 24px auto 0;
+    color: #FFFFFF;
+}
+
+
+.portfolio {
+    margin: 130px 0 160px;
+}
+
+.card {
+    border: none;
+    overflow: hidden;
+    margin-top: 30px;
+    background: #FDF3F0;
+    border-radius: 15px;
+}
+
+.card:hover {
+    background-color: #E7816B;
+}
+
+.card:hover .card__title {
+    color: #FFFFFF;
+}
+
+.card:hover .card__text {
+    color: #FFFFFF;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__content {
+    padding: 32px;
+    text-align: center;
+}
+
+.card__title {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #E7816B;
+}
+
+.card__text {
+    line-height: 26px;
+    color: #333136;
+}
+
+
+.service {
+    background: #F4F4F4;
+    display: block;
+    margin-bottom: 160px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.service__image {
+    width: 100%;
+}
+
+.service__info {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.service__title {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.service__text {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
